@@ -1,0 +1,36 @@
+h1 {
+    font-size: 100px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.anser {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 50px;
+    padding: 1% 2%;
+}
+
+#anser1 {
+    left: 20%;
+}
+
+#anser2 {
+    left: 40%;
+}
+
+#anser3 {
+    left: 60%;
+}
+
+#anser4 {
+    left: 80%;
+}
