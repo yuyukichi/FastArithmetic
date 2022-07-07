@@ -88,6 +88,9 @@ var problems = [
     ["65の2乗", "4225", "4340", "4330", "4240"],
     ["85の2乗", "7225", "7220", "7230", "7250"],
     ["115の2乗", "13225", "13335", "13345", "13315"],
+    ["|x+2|=3　x=?", "1,-5", "3", "-3", "1"],
+    ["|x+1|>3　x=?", "x<-4,2<x", "-2<x<4", "±3", "-4<x<2"],
+    ["|x+1|<3　x=?", "-4<x<2", "-2<x<4", "±3", "x<-4,2<x"]
 ]
 
 function tim1() {
@@ -149,7 +152,10 @@ function clickChecker(value) {
     }
 }
 
-function teston() {}
+function teston() {
+    problem = ["|x+2|=3　x=?", "±3", "3", "-3", "1"]
+    problemCreator(problem[0], problem[1], problem[2], problem[3], problem[4])
+}
 
 function problemCreator(problem, anser, x, y, z) {
     problem1.innerText = problem
